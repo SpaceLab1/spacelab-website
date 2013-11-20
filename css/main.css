@@ -97,9 +97,14 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+#logo {
+	display: block;
+	margin: 0 auto 20px;
+}
+
 #main {
 	width: 996px;
-	margin : 0 auto;
+	margin : 20px auto 0;
 }
 
 
