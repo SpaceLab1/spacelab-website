@@ -97,7 +97,10 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-
+#main {
+	width: 996px;
+	margin : 0 auto;
+}
 
 
 
