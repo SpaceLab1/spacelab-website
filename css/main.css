@@ -110,6 +110,12 @@ h2 {
 }
 
 #video {
+	box-shadow: 0 0 5px #fff;
+	-webkit-box-shadow: 0 0 5px #fff; 
+	-moz-box-shadow: 0 0 5px #fff;
+	line-height: 0 !important;
+}
+
 .main {
 	width: 996px;
 	margin: 0 auto;
