@@ -6,6 +6,8 @@
  * Kroc Camen, and the H5BP dev community and team.
  */
 
+@import url(http://fonts.googleapis.com/css?family=Signika+Negative:300,400,600,700);
+
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
@@ -20,6 +22,7 @@ textarea {
 
 html {
     font-size: 1em;
+	font-family: "Signika Negative", sans-serif;
     line-height: 1.4;
 }
 
@@ -97,18 +100,24 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+h2 {
+	text-align: center;
+}
+
 #logo {
 	display: block;
-	margin: 0 auto 20px;
+	margin: 20px auto;
 }
 
-#main {
+.main {
 	width: 996px;
-	margin : 20px auto 0;
+	margin: 0 auto;
 }
 
-
-
+.black-container {
+	padding: 50px 0;
+	background: #000;
+}
 
 
 
