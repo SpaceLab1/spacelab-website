@@ -22,7 +22,7 @@ textarea {
 
 html {
     font-size: 1em;
-	font-family: "Signika Negative", sans-serif;
+	font-family: "Helvetica Neueu", Helvetica, sans-serif;
     line-height: 1.4;
 }
 
@@ -147,7 +147,20 @@ h2 a, h2 a:visited {
 }
 
 .column-2 {
+	float: left;
 	width: 480px;
+	margin-left: 13px;
+}
+
+.column-2 h2 {
+	color: #fafafa;
+	font-size: 1.5em;
+	text-align: left;
+}
+
+.column-2 h3 {
+	color: #fafafa;
+	font-weight: 400;
 }
 
 .column-3 {
@@ -208,10 +221,33 @@ a.green-button {
 }
 
 .image-border {
-
 	width: 100%;
 }
 
+#mc_embed_signup {
+	clear: left;
+	font: 14px Helvetica,Arial,sans-serif;
+}
+
+#mce-EMAIL {
+	font-size: 1.8em;
+	padding: 5px;
+	margin: 20px 0 0;
+}
+
+#mc-embedded-subscribe {
+	font-weight: 700;
+	text-decoration: none;
+	text-align: center;
+	color: #fff;
+	padding: 10px;
+	margin: 15px auto 0;
+	background: #85C51F;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#85C51F', endColorstr='#7fbc1e');
+	background: -webkit-gradient(linear, left top, left bottom, from(#85C51F), to(#7fbc1e));
+	background: -moz-linear-gradient(top,  #85C51F,  #7fbc1e);
+	border: 0;
+}
 
 
 
