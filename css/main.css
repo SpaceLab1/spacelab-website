@@ -171,6 +171,30 @@ h2 a, h2 a:visited {
 	padding: 15px;
 }
 
+.column-3 h3 {
+	display: inline-block;
+	float: left;
+}
+
+.column-3 .price {
+	float: right;
+	font-size: 1.17em;
+	line-height: 1.4em;
+	margin: 1em 0;
+}
+
+.column-4 {
+	float: left;
+	width: 207px;
+	margin-left: 13px;
+	padding: 10px;
+	background: #eee;
+}
+
+.column-4 h2{
+	text-align: left;
+}
+
 .nomargin {
 	clear: both;
 	margin-left: 0 !important;
@@ -195,6 +219,15 @@ h2 a, h2 a:visited {
 	color: #333;
 	width: 96%;
 	padding: 2%;
+}
+
+.disclaimer-text {
+	font-size: .9em;
+	clear: both;
+	display: inline-block;
+	width: 100%;
+	margin: 30px auto 0;
+	text-align: center;
 }
 
 .space-bg {
