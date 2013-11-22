@@ -158,20 +158,45 @@ h2 {
 }
 
 .gray-bg {
+	clear: both;
 	display: block;
-	background: #ccc;
+	background: #F1F1F1;
+	color: #333;
 	width:96%;
 	padding: 2%;
 }
 
 .darkgray-bg {
+	clear: both;
 	display: block;
-	background: #aaa;
+	background: #e5e5e5;
+	color: #333;
 	width: 96%;
 	padding: 2%;
 }
 
+.button-container {
+	display: block;
+	width: 100%;
+	text-align: center;
+}
 
+a.green-button {
+	clear: both;
+	display: inline-block;
+	font-size: 1.2em;
+	font-family: Calibri, 'Helvetica Neueu', Helvetica, Arial, sans-serif;
+	text-decoration: none;
+	text-align: center;
+	color: #fff;
+	border-radius: 5px;
+	padding: 7px;
+	margin: 15px auto 0;
+	background: #079d00;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#079d00', endColorstr='#068500');
+	background: -webkit-gradient(linear, left top, left bottom, from(#079d00), to(#068500));
+	background: -moz-linear-gradient(top,  #079d00,  #068500);
+}
 
 
 
