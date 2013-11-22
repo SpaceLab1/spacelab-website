@@ -104,6 +104,10 @@ body {
 	
 }
 
+a, a:visited {
+	color: #0D83DD;
+}
+
 h2 {
 	text-align: center;
 }
