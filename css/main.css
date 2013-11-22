@@ -100,6 +100,10 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+body {
+	margin-bottom: 30px;
+}
+
 h2 {
 	text-align: center;
 }
@@ -116,14 +120,55 @@ h2 {
 	line-height: 0 !important;
 }
 
+#choose {
+	width: 660px;
+	display: block;
+	margin: 0 auto;
+}
+
 .main {
 	width: 996px;
 	margin: 0 auto;
 }
 
 .black-container {
+	clear: both;
 	padding: 50px 0;
 	background: #000;
+}
+
+.white-container {
+	clear: both;
+}
+
+.column-3 {
+	float: left;
+	width: 290px;
+	border: 1px solid #ccc;
+	margin-left: 15px;
+	padding: 15px;
+}
+
+.nomargin {
+	clear: both;
+	margin-left: 0 !important;
+	margin-right: 0 !important;
+	margin-top: 0 !important;
+	margin-bottom: 0 !important;
+}
+
+.gray-bg {
+	display: block;
+	background: #ccc;
+	width:96%;
+	padding: 2%;
+}
+
+.darkgray-bg {
+	display: block;
+	background: #aaa;
+	width: 96%;
+	padding: 2%;
 }
 
 
